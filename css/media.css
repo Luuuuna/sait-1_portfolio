@@ -1,0 +1,198 @@
+/*1500px========================================================================================================================================================================*/
+@media screen and (max-width: 1500px) {
+    .video {
+        padding-top: 10px;
+    }
+
+    .video-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .video__text {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+}
+/*1400================================================================================================================================================================================*/
+@media screen and (max-width: 1400px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .header__logo {
+        margin-right: 60px;
+    }
+
+    .header__navigation {
+        margin-right: 150px;
+    }
+
+    .text-h2 {
+        margin: 50px;
+    }
+
+    .main__card:nth-child(2) {
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+
+    .main__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.product {
+        padding: 50px 0 90px;
+    }
+    .product__foto {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .product__foto-img {
+        margin: 0;
+    }
+
+    .product__h5 {
+        text-align: center;
+        
+    }
+
+    .product__h2 {
+        margin: 0;
+    }
+
+    .product__content-text {
+        max-width: 584px;
+    }
+
+    .product__content {
+        text-align: center;
+        margin-bottom: 65px;
+    }
+
+}
+/*1200===============================================================================================================================================================================*/
+@media screen and (max-width: 1200px) {
+    .header__navigation_items li {
+        margin-right: 30px;
+    }
+
+    .header__navigation {
+        margin-right: 50px;
+    }
+
+    h5.main__h5 {
+        text-align: center;
+    }
+
+    .main__item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-h2 {
+        margin: 0;
+    }
+
+    .main__card:nth-child(3) {
+        margin: 0;
+    }
+}
+/*950=====================================================================================================================================================================================*/
+@media screen and (max-width: 950px) {
+    .header__menu {
+        flex-wrap: wrap;
+    }
+
+    .main__card:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .video {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    video {
+        width: 99%;
+    }
+
+}
+/*750=========================================================================================================================================================================================*/
+@media screen and (max-width: 750px) {
+    img.product__card-img {
+        width: 99%;
+    }
+
+    .product__card {
+       display: none;
+    }
+    .product-container {
+        margin: 0 20px;
+    }
+}
+/*520===================================================================================================================================================================================*/
+@media screen and (max-width: 520px) {
+    .header__navigation_items {
+        flex-direction: column;
+
+    }
+
+    .header__navigation_items li {
+        margin-bottom: 10px;
+
+    }
+
+    .header__enter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button.button_first {
+        margin-bottom: 15px;
+    }
+
+    .header__image {
+        background-position: left;
+    }
+   
+}
+/*450============================================================================================================================================================================*/
+@media screen and (max-width: 450px) {
+    .main__h3 {
+        font-size: 22px;
+    }
+
+    .main__card-img img {
+        width: 90vw;
+    }
+
+    .video__h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+/*320============================================================================================================================================================================*/
+@media screen and (max-width: 320px) {
+    .video {
+        padding-bottom: 50px;
+    }
+
+}
+/*315===========================================================================================================================================================================*/
+@media screen and (max-width: 315px) {
+    .main__h3-2 {
+        position: absolute;
+        left: 5px;
+    }
+
+    .h1 {
+        font-size: 40px;
+    }
+
+    .text-h2 {
+        font-size: 30px;
+    }
+}
